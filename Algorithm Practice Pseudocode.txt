@@ -1,0 +1,13 @@
+input array;
+sum = 0;
+loop through all array elements
+{
+	num = next array element;
+	if num >= 0  // The instructions don't say what to do with 0 so I interpreted it such that 0 should be treated as positive
+	{
+		sum += num;
+		divisor++;
+	}
+}
+avg = sum / divisor;
+output avg
